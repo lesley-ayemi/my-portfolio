@@ -11,7 +11,7 @@ export default function TypewriterRole() {
   const roles = [
     "Full Stack Developer",
     "Software Engineer",
-    "Systems Designer",
+    "Project Manager",
     "AI Enthusiast"
   ];
 

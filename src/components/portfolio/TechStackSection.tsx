@@ -67,16 +67,16 @@ const techStackData: Record<string, TechItem[]> = {
   ],
   "Frontend": [
     {
-      name: "React",
-      icon: "skill-icons:react-dark",
+      name: "Vue.js",
+      icon: "skill-icons:vuejs-dark",
       level: "Expert",
       category: "Frontend",
       description: "Building modern, interactive user interfaces",
       yearsUsed: 4
     },
     {
-      name: "Next.js",
-      icon: "devicon:nextjs",
+      name: "Nuxt.js",
+      icon: "devicon:nuxtjs",
       level: "Expert",
       category: "Frontend",
       description: "Full-stack React framework for production apps",
@@ -106,14 +106,14 @@ const techStackData: Record<string, TechItem[]> = {
       description: "Utility-first CSS framework for rapid UI development",
       yearsUsed: 3
     },
-    {
-      name: "Flutter",
-      icon: "devicon:flutter",
-      level: "Intermediate",
-      category: "Frontend",
-      description: "Cross-platform mobile app development",
-      yearsUsed: 2
-    },
+    // {
+    //   name: "Flutter",
+    //   icon: "devicon:flutter",
+    //   level: "Intermediate",
+    //   category: "Frontend",
+    //   description: "Cross-platform mobile app development",
+    //   yearsUsed: 2
+    // },
   ],
   "Database": [
     {

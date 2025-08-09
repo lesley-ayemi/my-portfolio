@@ -6,37 +6,81 @@ import SectionHeader from "./SectionHeader";
 
 const experience = [
   {
-    role: "Software Developer",
-    company: "Upwork",
-    period: "January 2020 — Present",
-    type: "Freelance",
-    companyIcon: "fa6-brands:square-upwork",
-    companyColor: "from-green-500 to-green-600",
-    description: "Delivered high-quality projects across diverse domains, including web and mobile applications, API development, and cloud integrations (AWS, GCP).",
+    role: "Independent Contractor",
+    company: "Freelance",
+    period: "December 2020 — Present",
+    type: "Remote",
+    // companyIcon: "fa6-brands:square-upwork",
+    // companyColor: "from-green-500 to-green-600",
+    description: "Delivered high-quality projects across diverse domains, including web and mobile applications, API development, and cloud integrations (AWS, GCP)",
     achievements: [
-      "Achieved Top-Rated status with a 91% job success score",
       "Completed 10+ projects focusing on scalable solutions",
       "Consistently praised for skillfulness, quick learning, and strong communication",
-      "Earned repeated engagements through reliability and expertise"
+      "Earned repeated engagements through reliability and expertise",
+      "Integrated 5+ third-party APIs, including Flutterwave, Paystack, Stripe, and Termii (SMS/Email messaging), enhancing product functionality, automating payment and communication workflows, and reducing client support requests by 20%. "
     ],
-    technologies: ["JavaScript", "Python", "Node.js", "AWS", "GCP", "OpenAI API", "LangChain"]
+    technologies: ["JavaScript", "Python", "Node.js", "Django", "AWS", "GCP", "OpenAI API", "LangChain", "Training & Support"]
   },
   {
-    role: "HIMS Master Trainer / PACS Specialist",
-    company: "Public Health Organization, Islamabad",
-    period: "July 2019 — Present",
+    role: "Software Developer(Intern)",
+    company: "Bluebow Research Consultancy",
+    period: "October 2024 — Present",
     type: "Full-time",
-    companyColor: "from-blue-500 to-blue-600",
-    companyIcon: "mdi:hospital-building",
-    description: "Spearheaded organizational transformation from paper-based manual systems to completely integrated HIMS and PACS (Picture Archiving and Communication System).",
+    // companyColor: "from-blue-500 to-blue-600",
+    // companyIcon: "mdi:hospital-building",
+    description: "Delivered multiple key features that increased app engagement by 25%, while improving performance metrics like load speed and responsiveness",
     achievements: [
-      "Led integration of 45+ radiology machines (CT, MRI, X-Ray, Ultrasound)",
+      "Participated in daily standups and sprint planning sessions, contributing to on-time delivery of sprint tasks and smoother team coordination ",
       "Ensured active monitoring for integration issues",
-      "Acted as master trainer and led support team",
+      "Integrated 5+ third-party APIs (e.g., analytics, authentication, external services) to improve platform capabilities and reduce development effort by 20%",
       "Communicated issues and requirements to backend teams"
     ],
-    technologies: ["HIMS", "PACS", "System Integration", "Healthcare IT", "Training & Support"]
-  }
+    technologies: ["JavaScript", "Python", "Node.js", "Next.Js", "AWS"]
+  },
+  {
+    role: "Software Engineer",
+    company: "Seed Credit",
+    period: "November 2024 — July 2025",
+    type: "Full-time",
+    // companyColor: "from-blue-500 to-blue-600",
+    // companyIcon: "mdi:hospital-building",
+    description: "Developed responsive interfaces using HTML5, CSS3, JavaScript, Bootstrap, and Vue.js, resulting in a 20–30% improvement in user engagement across multiple projects",
+    achievements: [
+      "Built and maintained server-side APIs and logic using Django and Django REST Framework, managing data with PostgreSQL, handling up to 10,000+ records efficiently ",
+      "Actively participated in weekly code reviews, paired programming, and agile stand-ups, contributing to a 25% reduction in delivery time on sprint features",
+      "Integrated new tools and frameworks (e.g., Vue.js, Git workflows) into projects after self-led research and team feedback, improving development speed and flexibility"
+    ],
+    technologies: ["JavaScript", "Python", "Django", "FastAPI", "Vue.Js", "PostgreSQL", "Paystack", "AWS"]
+  },
+  {
+    role: "Project Manger",
+    company: "Softalx Solutions",
+    period: "May 2022 — Nov 2022",
+    type: "Full-time",
+    // companyColor: "from-blue-500 to-blue-600",
+    // companyIcon: "mdi:hospital-building",
+    description: "Successfully guided and supported Scrum Teams across multiple projects, improving sprint efficiency by 30% through the effective implementation of Agile principles and best practices. Led Agile ceremonies for teams of 8-12 members, ensuring smooth execution of sprints and continuous delivery",
+    achievements: [
+      "Collaborated closely with Product Owners to maintain a well-groomed backlog, reducing backlog refinement time by 40% and increasing sprint predictability. Helped teams effectively plan and prioritize sprints, leading to a 25% improvement in on-time delivery of key project milestones. ",
+      "Proactively identified and eliminated workflow obstacles, resolving an average of 5-7 impediments per sprint, leading to a 20% increase in overall team productivity. Acted as a bridge between development teams and stakeholders, ensuring seamless communication and issue resolution",
+    ],
+    technologies: ["Adaptability", "Agile Methodologies", "Process Mapping", "Teamwork & Collaboration"]
+  },
+  {
+    role: "Learning Facilitator",
+    company: "Coriftech Solutions",
+    period: "November 2020 — December 2021",
+    type: "Full-time",
+    // companyColor: "from-blue-500 to-blue-600",
+    // companyIcon: "mdi:hospital-building",
+    description: "Trained learners in HTML5, CSS3, JavaScript, and Bootstrap, leading to over 80% successfully building fully responsive, mobile-friendly websites",
+    achievements: [
+      "Introduced server-side development with PHP and MySQL, enabling 60%+ of participants to create simple dynamic application ",
+      "Delivered hands-on WordPress.org training, helping 90% of trainees launch and manage their own websites within weeks ",
+      "Facilitated portfolio-based learning through real-world projects, increasing learner engagement and skill retention"
+    ],
+    technologies: ["JavaScript", "Python", "Django", "FastAPI", "Vue.Js", "PostgreSQL", "Paystack", "AWS"]
+  },
 ];
 
 export default function ExperienceSection() {
@@ -84,7 +128,7 @@ export default function ExperienceSection() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
-      className="mb-16 relative overflow-hidden"
+      className="mb-16 relative relative"
     >
       {/* Enhanced Background Elements */}
       <div className="absolute inset-0 pointer-events-none">
@@ -254,7 +298,7 @@ export default function ExperienceSection() {
         </motion.div>
 
         {/* Experience Summary Stats */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.5 }}
@@ -286,7 +330,7 @@ export default function ExperienceSection() {
               <div className="text-gray-600 dark:text-gray-400 font-medium text-base md:text-lg">Success Rate</div>
             </motion.div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </motion.section>
   );

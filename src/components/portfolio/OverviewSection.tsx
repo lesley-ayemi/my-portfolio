@@ -109,13 +109,13 @@ export default function OverviewSection() {
                   <div>
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4 text-gray-900 dark:text-white flex items-center gap-2 md:gap-3">
                       <span className="text-2xl sm:text-3xl md:text-4xl">👋</span>
-                      Hello, I&apos;m Muhammad Ramazan
+                      Hello, I&apos;m Lesley Ayemi
                     </h3>
                     <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-4 md:mb-6">
                       A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Full Stack Developer</span> and
                       <span className="font-bold text-purple-600 dark:text-purple-400">
                         &nbsp; AI enthusiast</span> with
-                      <span className="font-bold text-green-600 dark:text-green-400"> 5+ years</span> of experience crafting
+                      <span className="font-bold text-green-600 dark:text-green-400"> 4+ years</span> of experience crafting
                       digital experiences that users love.
                     </p>
                   </div>
@@ -123,7 +123,7 @@ export default function OverviewSection() {
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      I specialize in building scalable web and mobile applications using React, Next.js, TypeScript,
+                      I specialize in building scalable web and mobile applications using Django, Flask, NodeJs, VueJs, Nuxt.js, TypeScript,
                       and modern development technologies. I thrive on turning complex problems into elegant solutions
                       that users love.
                     </p>
@@ -141,7 +141,7 @@ export default function OverviewSection() {
                       Core Technologies
                     </h4>
                     <div className="flex flex-wrap gap-2 md:gap-3">
-                      {["AI Integration", "React", "Next.js", "TypeScript", "Node.js", "Python", "AWS", "UI/UX Design", "Healthcare IT"].map((skill, index) => (
+                      {["AI Integration", "Vue.js", "Nuxt.js", "TypeScript", "Node.js", "Python", "AWS", "UI/UX Design", "Project Management"].map((skill, index) => (
                         <motion.span
                           key={skill}
                           initial={{ opacity: 0, scale: 0 }}
@@ -224,7 +224,7 @@ export default function OverviewSection() {
               </h4>
               <div className="space-y-3">
                 <motion.a
-                  href="mailto:mramazan1@yahoo.com"
+                  href="mailto:leeayemi@gmail.com"
                   whileHover={{ scale: 1.02, x: 4 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex items-center gap-3 p-3 rounded-lg bg-white/70 dark:bg-gray-800/30 hover:bg-white/90 dark:hover:bg-gray-800/50 transition-all duration-300 group border border-white/20 dark:border-gray-700/30"
@@ -233,7 +233,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:letter-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white break-all">mramazan1@yahoo.com</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white break-all">leeayemi@gmail.com</div>
                   </div>
                 </motion.a>
 
@@ -245,7 +245,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:global-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">mramazan.dev</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">lesleyayemi.com</div>
                   </div>
                 </motion.div>
 
@@ -257,14 +257,14 @@ export default function OverviewSection() {
                     <Icon icon="solar:map-point-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">Islamabad, Pakistan</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">London, United Kingdom</div>
                   </div>
                 </motion.div>
               </div>
             </div>
 
             {/* Achievement Highlights */}
-            <div className="p-6 rounded-2xl bg-gradient-to-br from-amber-50/90 to-yellow-50/90 dark:from-amber-950/30 dark:to-yellow-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">
+            {/* <div className="p-6 rounded-2xl bg-gradient-to-br from-amber-50/90 to-yellow-50/90 dark:from-amber-950/30 dark:to-yellow-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">
               <h4 className="font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
                 <Icon icon="solar:cup-star-bold" className="text-amber-600 w-5 h-5" width={20} height={20} />
                 Achievements
@@ -287,7 +287,7 @@ export default function OverviewSection() {
                   </motion.div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* Available for Hire */}
             <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-50/90 to-cyan-50/90 dark:from-emerald-950/30 dark:to-cyan-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">

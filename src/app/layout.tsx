@@ -7,13 +7,13 @@ import "./globals.css";
 const inter = Space_Grotesk({ subsets: ["latin"], weight: ["500", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: "Muhammad Ramazan - Full Stack Developer",
-  description: "Portfolio of Muhammad Ramazan, a passionate full-stack developer specializing in modern web technologies, React, Next.js, and innovative digital solutions.",
-  keywords: "Muhammad Ramazan, Full Stack Developer, React, Next.js, Web Development, Portfolio",
-  authors: [{ name: "Muhammad Ramazan" }],
+  title: "Lesley Ayemi - Full Stack Developer",
+  description: "Portfolio of Lesley Ayemi, a passionate full-stack developer specializing in modern web technologies, React, Next.js, and innovative digital solutions.",
+  keywords: "Lesley Ayemi, Full Stack Developer, React, Next.js, Web Development, Portfolio",
+  authors: [{ name: "Lesley Ayemi" }],
   openGraph: {
-    title: "Muhammad Ramazan - Full Stack Developer",
-    description: "Portfolio of Muhammad Ramazan, a passionate full-stack developer specializing in modern web technologies.",
+    title: "Lesley Ayemi - Full Stack Developer",
+    description: "Portfolio of Lesley Ayemi, a passionate full-stack developer specializing in modern web technologies.",
     type: "website",
   },
 };

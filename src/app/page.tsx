@@ -9,7 +9,7 @@ import {
   HeroSection,
   Navigation,
   OverviewSection,
-  ProjectsSection,
+  // ProjectsSection,
   TechStackSection,
   // TestimonialsSection
 } from "@/components/portfolio";

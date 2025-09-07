@@ -37,7 +37,7 @@ export default function Portfolio() {
         <ExperienceSection />
 
         {/* Projects Section */}
-        <ProjectsSection />
+        {/* <ProjectsSection /> */}
 
         {/* Testimonials Section */}
         {/* <TestimonialsSection /> */}

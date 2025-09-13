@@ -162,23 +162,23 @@ export default function ExperienceSection() {
             >
               <div className="flex flex-col sm:flex-row sm:items-start gap-6 md:gap-8 lg:gap-12">
                 {/* Company Icon & Info */}
-                <div className="flex-shrink-0 flex flex-col items-center sm:items-start">
+                {/* <div className="flex-shrink-0 flex flex-col items-center sm:items-start">
                   <motion.div
                     variants={iconVariants}
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     className={`w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-gradient-to-br flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
-                    // className={`w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
+                    className={`w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
                   >
-                    {/* <Icon
+                    <Icon
                       icon={exp.companyIcon!}
                       className="text-white w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 relative z-10"
                       width={40}
                       height={40}
-                    /> */}
-                    {/* Animated background gradient */}
+                    />
+                    Animated background gradient
                     <div className={`absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-20 transition-opacity duration-500`} />
                   </motion.div>
-                </div>
+                </div> */}
 
                 {/* Content */}
                 <div className="flex-1 space-y-4 md:space-y-6 min-w-0">

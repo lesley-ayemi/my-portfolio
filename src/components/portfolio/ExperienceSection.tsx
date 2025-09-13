@@ -107,19 +107,19 @@ export default function ExperienceSection() {
     },
   };
 
-  const iconVariants = {
-    hidden: { scale: 0, rotate: -90 },
-    visible: {
-      scale: 1,
-      rotate: 0,
-      transition: {
-        type: "spring",
-        stiffness: 200,
-        damping: 15,
-        delay: 0.3,
-      },
-    },
-  };
+  // const iconVariants = {
+  //   hidden: { scale: 0, rotate: -90 },
+  //   visible: {
+  //     scale: 1,
+  //     rotate: 0,
+  //     transition: {
+  //       type: "spring",
+  //       stiffness: 200,
+  //       damping: 15,
+  //       delay: 0.3,
+  //     },
+  //   },
+  // };
 
   return (
     <motion.section
